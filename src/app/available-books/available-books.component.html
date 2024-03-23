@@ -1,0 +1,325 @@
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+  crossorigin="anonymous"
+/>
+<div class="shadow pt-3 px-3 m-4 bg-body-tertiary rounded">
+  <p style="font-weight: bold; font-size: 26px">Available Books</p>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="d-flex justify-content-start bg-body-tertiary rounded">
+          <div
+            class="p-3 mb-2 border border-3 border-primary d-flex justify-content-start"
+            style="border-radius: 20px"
+          >
+            <img
+              class="mx-3"
+              src="assets/hobbitUJ.jpg"
+              style="width: 100px; height: 150px"
+            />
+            <div>
+              <p>
+                A reluctant Hobbit, Bibo Baggins, sets out to the Lonely
+                Mountains with a spirited group of dwarves to reclaim their
+                mountain home, and the gold within it from the dragon Smaug.
+              </p>
+              <div style="text-align: right">
+                <button
+                  type="button"
+                  class="btn"
+                  style="background-color: #070372; color: white"
+                  data-bs-toggle="modal"
+                  data-bs-target="#firstodal"
+                >
+                  Reserve
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-start bg-body-tertiary rounded">
+          <div
+            class="p-3 mb-2 border border-primary d-flex justify-content-start"
+            style="border-radius: 20px"
+          >
+            <img
+              class="mx-3"
+              src="assets/HobbitDeso.jpg"
+              style="width: 100px; height: 150px"
+            />
+            <div>
+              <p>
+                The dwarves, along with Bilbo Baggins and Gandalg the Grey,
+                continue their quest to reclaim Erebor, their homeland, from
+                Smaug. Bilbo Baggins is in possession of a mysterious and
+                magical ring.
+              </p>
+              <div style="text-align: right">
+                <button
+                  type="button"
+                  class="btn"
+                  style="background-color: #070372; color: white"
+                  data-bs-toggle="modal"
+                  data-bs-target="#secondodal"
+                >
+                  Reserve
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-flex justify-content-start bg-body-tertiary rounded">
+          <div
+            class="p-3 mb-2 border border-primary d-flex justify-content-start"
+            style="border-radius: 20px"
+          >
+            <img
+              class="mx-3"
+              src="assets/HobbitFive.jpg"
+              style="width: 100px; height: 150px"
+            />
+            <div>
+              <p>
+                Bilbo and company are forced to engage in a war against an array
+                of combatants and keep the Lonely Mountain from falling into the
+                hands of a rising darkness.
+              </p>
+              <div style="text-align: right">
+                <button
+                  type="button"
+                  class="btn"
+                  style="background-color: #070372; color: white"
+                  data-bs-toggle="modal"
+                  data-bs-target="#thirdodal"
+                >
+                  Reserve
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="shadow p-3 mt-5 bg-body-tertiary"
+    style="border-top-right-radius: 20px; border-top-left-radius: 20px"
+  >
+    <p style="color: #1c187e; font-weight: bold">
+      THe Hobbit: An Unexpected Journey
+    </p>
+    <div class="d-flex justify-content-evenly">
+      <p>
+        The Adventure follows the journey of title character Bilbo Baggins, who
+        is swpt into an epic quest to relaim the lost Drwarf Kingdom of Ererbor
+        from the fearsome dragon Smaug. Approached out of the blue by the wizard
+        Gandalf the Grey...
+      </p>
+      <button
+        type="button"
+        class="btn mx-3"
+        style="
+          height: 40px;
+          width: 80px;
+          background-color: #070372;
+          color: white;
+        "
+      >
+        View
+      </button>
+    </div>
+  </div>
+</div>
+<div
+  class="modal fade"
+  id="firstModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: #070372">
+        <h1
+          class="modal-title fs-5"
+          id="exampleModalLabel"
+          style="color: white"
+        >
+          Reserve Book
+        </h1>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body d-flex justify-content-evenly">
+        <img
+          class="mx-3"
+          src="assets/hobbitUJ.jpg"
+          style="width: 100px; height: 150px"
+        />
+        <p>
+          <span style="font-weight: bold; font-size: large">
+            Hobbit: An Unexpected Journey</span
+          >
+          <br />
+          <br />
+          Name:
+          <input
+            type="text"
+            placeholder="User Name"
+            style="border-radius: 5px"
+          />
+          <br />
+          Time of Book Return: Within 7 Days
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
+        <button
+          type="button"
+          class="btn"
+          style="background-color: #070372; color: white"
+        >
+          Reserve Book
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="modal fade"
+  id="secondModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: #070372">
+        <h1
+          class="modal-title fs-5"
+          id="exampleModalLabel"
+          style="color: white"
+        >
+          Reserve Book
+        </h1>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body d-flex justify-content-evenly">
+        <img
+          class="mx-3"
+          src="assets/HobbitDeso.jpg"
+          style="width: 100px; height: 150px"
+        />
+        <p>
+          <span style="font-weight: bold; font-size: large">
+            Hobbit: The Desolation of Smaug</span
+          >
+          <br />
+          <br />
+          Name:
+          <input
+            type="text"
+            placeholder="User Name"
+            style="border-radius: 5px"
+          />
+          <br />
+          Time of Book Return: Within 7 Days
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
+        <button
+          type="button"
+          class="btn"
+          style="background-color: #070372; color: white"
+        >
+          Reserve Book
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="modal fade"
+  id="thirdModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: #070372">
+        <h1
+          class="modal-title fs-5"
+          id="exampleModalLabel"
+          style="color: white"
+        >
+          Reserve Book
+        </h1>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body d-flex justify-content-evenly">
+        <img
+          class="mx-3"
+          src="assets/  HobbitFive.jpg"
+          style="width: 100px; height: 150px"
+        />
+        <p>
+          <span style="font-weight: bold; font-size: large">
+            Hobbit: The Battle of the Five Armies</span
+          >
+          <br />
+          <br />
+          Name:
+          <input
+            type="text"
+            placeholder="User Name"
+            style="border-radius: 5px"
+          />
+          <br />
+          Time of Book Return: Within 7 Days
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
+        <button
+          type="button"
+          class="btn"
+          style="background-color: #070372; color: white"
+        >
+          Reserve Book
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"
+></script>
